@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+.expo/
+dist/
+data/*.db
+data/twitter_training.csv
+data/twitter_validation.csv
+.DS_Store

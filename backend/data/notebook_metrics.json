@@ -1,0 +1,21 @@
+{
+  "model_name": "Linear SVC + TF-IDF (HalvingGridSearchCV)",
+  "best_baseline_cv": "Linear SVC",
+  "accuracy": 0.978,
+  "f1_macro": 0.9779,
+  "f1_weighted": 0.978,
+  "precision_macro": 0.978,
+  "recall_macro": 0.978,
+  "cv_f1_macro": 0.899,
+  "cv_f1_std": 0.0018,
+  "train_rows": 74682,
+  "test_rows": 994,
+  "cv_models": [
+    { "name": "Linear SVC", "f1": 0.8973, "std": 0.0018 },
+    { "name": "SGD Classifier", "f1": 0.8372, "std": 0.002 },
+    { "name": "Logistic Regression", "f1": 0.89, "std": 0.002 },
+    { "name": "Complement NB", "f1": 0.88, "std": 0.003 },
+    { "name": "Multinomial NB", "f1": 0.85, "std": 0.004 }
+  ],
+  "notes": "Métriques extraites du notebook twitter_sentiment_final — jeu de test & CV 5-fold"
+}

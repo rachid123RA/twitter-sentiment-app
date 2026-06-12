@@ -1,0 +1,21 @@
+{
+  "sentiment_distribution": {
+    "Positive": 425,
+    "Negative": 425,
+    "Neutral": 425,
+    "Irrelevant": 425
+  },
+  "top_entities": {
+    "Entity_1": 178,
+    "Entity_0": 177,
+    "Entity_7": 175,
+    "Entity_2": 173,
+    "Entity_4": 170,
+    "Entity_6": 168,
+    "Entity_8": 166,
+    "Entity_3": 165,
+    "Entity_9": 164,
+    "Entity_5": 164
+  },
+  "total_train": 1700
+}

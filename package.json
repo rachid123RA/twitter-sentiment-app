@@ -1,0 +1,12 @@
+{
+  "name": "twitter-sentiment-app",
+  "private": true,
+  "scripts": {
+    "setup:python": "python3 -m venv .venv && .venv/bin/pip install -r backend/requirements.txt",
+    "export-model": ".venv/bin/python backend/scripts/export_model.py",
+    "seed": ".venv/bin/python backend/scripts/seed.py",
+    "api": "cd backend && ../.venv/bin/python app.py",
+    "setup": "npm run setup:python && npm run export-model && npm run seed",
+    "mobile": "cd mobile && npx expo start"
+  }
+}
